@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    #about {
+        border: 5px solid blueviolet;
+    background-color: rgb(209, 183, 233);
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
 </head>
+
+<style>
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: rgb(209, 183, 233);
+    margin: auto;
+    width: 95%;
+    padding: 5px;
+    box-shadow: 3px 3px 3px;
+    text-shadow: 1px 2px;
+}
+
+h2 { 
+    text-align: center;
+}
+
+p {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: rgb(209, 183, 233);
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 3px 3px 3px black;
+}
+
+#centerBox {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: rgb(209, 183, 233);
+    margin: auto;
+    width: 70%;
+    padding: 5px;
+    overflow: auto;
+    box-shadow: 3px 3px 3px black;
+}
+  /* Use a media query to add a breakpoint at 800px */
+  @media screen and (max-width: 450px) { 
+    #centerBox {
+        border-width: 3px;
+        border-style: solid;
+        border-color: black;
+        float: none;
+        max-width: none;
+        width: 95%;
+        box-shadow: black;
+    }
+  }
+  #quickLinks {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    background-color: gray;
+    margin: auto;
+    width: 70%;
+    padding: 5px;
+    box-shadow: 3px 3px 3px;
+    box-shadow: 3px 3px 3px black;
+
+img {
+    float: right;
+    border: 1px solid black;
+    margin: 0px 0px 15px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    width: 50%;
+}
+  }
+</style>
+<div id="about">
 <body>
     <h1>About Me</h1>
-    <p>I do wizard stuff.</p>
+    <p><img src="me.jpg" alt="ME!" width="250" height="500" class="center">Hola! My name is Ydieliz, but no one really calls me that. They call me Ydi! Yes, I know that off the bat, my name might seem intimidating but it's not actually. I love the outdoors and sports! I do Field Hockey and Track & Field as a thrower. In Programming, we learned and worked on RPG Maker, HTML, and some Python and JavaScript. With the elements we learned in RPG Maker,we transformed that code into JavaScript. We also dived into Vscode in which we used HTML to make test sites and to make this one in which you are reading from. </p>
+
+   
+</div>
 </body>
 </html>
